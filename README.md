@@ -1,6 +1,6 @@
 # asfront
 
-## Project setup
+## Levantar proyecto
 ```
 npm install
 ```
