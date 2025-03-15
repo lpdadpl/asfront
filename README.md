@@ -18,7 +18,7 @@ iniciar servidor
 npm run build
 ```
 
-### Lints and fixes files
+### Lints and fixes filesutyr
 
 ```
 npm run lint
