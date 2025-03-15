@@ -28,4 +28,4 @@ npm run lint
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-alejandro es un maricon efectivamente
+alejandro es un maricon efectivamente le encanta la lefa
