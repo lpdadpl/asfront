@@ -28,4 +28,4 @@ npm run lint
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-alejandro es un maricon
+alejandro es un maricon efectivamente
