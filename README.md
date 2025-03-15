@@ -22,7 +22,7 @@ iniciar servidor
 npm run build
 ```
 
-### Lints and fixes files
+### Lints and fixes filesutyr
 
 ```
 npm run lint
@@ -32,4 +32,4 @@ npm run lint
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-alejandro es un maricon
+alejandro es un maricon efectivamente le encanta la lefa
