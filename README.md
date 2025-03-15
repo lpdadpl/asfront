@@ -6,24 +6,24 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compila y recarga en caliente para desarrollo
 
 ```
-iniciar servidor
+npm run serve
 ```
 
-### Compiles and minifies for production
+### Compila y minifica para producción
 
 ```
 npm run build
 ```
 
-### Lints and fixes filesutyr
+### Linter y corrección de archivos
 
 ```
 npm run lint
 ```
 
-### Customize configuration
+### Personalizar configuración
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Ver [Referencia de Configuración](https://cli.vuejs.org/config/).
