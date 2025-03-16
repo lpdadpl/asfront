@@ -2,17 +2,20 @@
   <img alt="Vue logo" src="./assets/LogoArchiveSphere.png">
   <NavBar/>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <AppFooter/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import NavBar from '@/components/NavBar.vue'
+import AppFooter from '@/components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    NavBar
+    NavBar,
+    AppFooter
   }
 }
 </script>
