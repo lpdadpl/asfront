@@ -1,22 +1,10 @@
 <template>
-  <img alt="Vue logo" src="./assets/LogoArchiveSphere.png">
-  <NavBar/>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <AppFooter/>
+  <router-view/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import NavBar from '@/components/NavBar.vue'
-import AppFooter from '@/components/Footer.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld,
-    NavBar,
-    AppFooter
-  }
+  name: 'App'
 }
 </script>
 
@@ -28,5 +16,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px;
 }
 </style>

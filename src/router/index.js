@@ -1,50 +1,23 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import HomePage from '@/components/HomePage.vue'
+import FilePage from '@/components/FilePage.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: () => import('@/views/Home.vue')
+    component: HomePage
   },
   {
-    path: '/documentos',
-    name: 'Documentos',
-    component: () => import('@/views/Documentos.vue')
-  },
-  {
-    path: '/libros',
-    name: 'Libros',
-    component: () => import('@/views/Libros.vue')
-  },
-  {
-    path: '/videos',
-    name: 'Videos',
-    component: () => import('@/views/Videos.vue')
-  },
-  {
-    path: '/biblioteca',
-    name: 'Biblioteca',
-    component: () => import('@/views/Biblioteca.vue')
-  },
-  {
-    path: '/guardados',
-    name: 'Guardados',
-    component: () => import('@/views/Guardados.vue')
-  },
-  {
-    path: '/descargas',
-    name: 'Descargas',
-    component: () => import('@/views/Descargas.vue')
-  },
-  {
-    path: '/perfil',
-    name: 'Perfil',
-    component: () => import('@/views/Perfil.vue')
+    path: '/file/:id',
+    name: 'FilePage',
+    component: FilePage,
+    props: true
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(),
   routes
 })
 
