@@ -16,14 +16,8 @@
 
     <div class="navbar-end">
       <div class="nav-icons">
-        <router-link to="/guardados" class="icon-link">
-          <span class="material-icons nav-icon" title="Archivos Guardados">bookmark</span>
-        </router-link>
-        <router-link to="/descargas" class="icon-link">
-          <span class="material-icons nav-icon" title="Mis Descargas">download</span>
-        </router-link>
-        <router-link to="/perfil" class="icon-link">
-          <span class="material-icons nav-icon" title="Mi Perfil">person</span>
+        <router-link to="/login">
+          <img src="@/assets/profileicon.png" alt="Perfil" class="profile-icon" />
         </router-link>
       </div>
       <div class="nav-item">
@@ -104,32 +98,19 @@ export default {
 
 .nav-icons {
   display: flex;
-  gap: 1rem;
   align-items: center;
 }
 
-.icon-link {
-  text-decoration: none;
-  padding: 0.5rem;
+.profile-icon {
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  background-color: transparent;
-}
-
-.icon-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  transform: translateY(-2px);
-}
-
-.nav-icon {
-  width: 24px;
-  height: 24px;
   cursor: pointer;
-  transition: all 0.3s ease;
-  color: #ffffff;
+  transition: transform 0.2s;
+}
+
+.profile-icon:hover {
+  transform: scale(1.1);
 }
 
 .menu-button {
